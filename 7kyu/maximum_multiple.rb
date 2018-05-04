@@ -1,0 +1,15 @@
+#7 kyu  Maximum Multiple
+=begin
+Given a Divisor and a Bound , Find the largest integer N , Such That ,
+Conditions :
+
+    N is divisible by divisor
+
+    N is less than or equal to bound
+
+    N is greater than 0.
+
+=end
+def max_multiple(divisor, bound)
+  bound-bound%divisor
+end
